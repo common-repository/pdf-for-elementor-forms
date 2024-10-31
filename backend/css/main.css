@@ -1,0 +1,1389 @@
+[data-condition]:not([data-condition=""])::after {
+  content: " Conditional Logic";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #e7e7e7;
+  padding: 3px;
+}
+.pro_disable::after {
+  content: "Pro";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: red;
+  padding: 3px;
+  font-size: 11px;
+  color: #fff;
+  border-radius: 5px 0 0 0;
+}
+.pro_disable_padding {
+  padding: 10px !important;
+}
+body .pro_disable_fff {
+  background: transparent;
+}
+.post-type-yeepdf.post-php #wpadminbar,
+.post-type-yeepdf.post-php #adminmenuwrap,
+.post-type-yeepdf.post-php #adminmenuback,
+.post-type-yeepdf.post-php .notice,
+.post-type-yeepdf.post-php .error,
+.post-type-yeepdf.post-php #screen-meta-links,
+.post-type-yeepdf.post-php .postbox-header,
+.post-type-yeepdf.post-php #submitdiv,
+.post-type-yeepdf.post-php #wpfooter,
+.post-type-yeepdf.post-php .wp-heading-inline,
+.post-type-yeepdf.post-php #titlediv .inside,
+.post-type-yeepdf.post-php #authordiv,
+.post-type-yeepdf.post-php #wpseo_meta,
+.post-type-yeepdf.post-php #post-body.columns-2 #postbox-container-1,
+.post-type-yeepdf.post-php .wp-heading-inline + a,
+.post-type-yeepdf.post-php .meta-box-sortables,
+.post-type-yeepdf.post-php .postbox {
+  display: none !important;
+}
+.post-type-yeepdf.post-php #email-builder-main.postbox {
+  display: block !important;
+}
+.hidden,
+.gform-settings-description.hidden {
+  display: none;
+}
+.post-type-yeepdf.post-php #normal-sortables {
+  display: block !important;
+}
+.post-type-yeepdf .row-actions .view {
+  display: none;
+}
+.post-type-yeepdf.post-php #poststuff {
+  padding-top: 40px;
+}
+.post-type-yeepdf.post-php #poststuff #post-body.columns-2 {
+  margin-right: 0 !important;
+}
+#email-builder-main {
+  background: none;
+  border: none;
+}
+.email-builder-main {
+  background-color: #fff;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  min-width: 700px;
+  font-family: "dejavu sans";
+}
+.post-type-yeepdf.post-php #wpwrap {
+  background: #c3ccd5;
+}
+.email-builder-main .email-builder-main-change_backgroud {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+.email-builder-main table {
+  width: 100% !important;
+}
+.post-type-yeepdf.post-php #wpcontent {
+  margin-left: 0;
+}
+body.post-type-yeepdf.post-php {
+}
+.post-type-yeepdf.post-php #wpcontent {
+  padding-left: 445px;
+}
+.post-type-yeepdf.post-php #wpcontent {
+  padding-left: 445px;
+}
+.rtl.post-type-yeepdf.post-php #wpcontent {
+  margin-right: 0;
+}
+.rtl.post-type-yeepdf.post-php #poststuff #post-body.columns-2 {
+  margin-left: 0;
+}
+.email-builder-main-change_backgroud {
+  padding: 5px 10px;
+  display: inline-block;
+  background: #e0e1e2;
+  border-radius: 2px;
+}
+.email-builder-main-change_backgroud:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.builder-row-inner {
+  padding: 5px 5px 5px 0;
+  border: 1px solid #666;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.builder-row-inner span {
+  background: #666;
+  height: 25px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  flex-grow: 1;
+}
+.builder-row-inner .bd-row-2,
+.builder-row-container .bd-row-2 {
+  flex-grow: 2;
+}
+.builder-elements hr {
+  padding: 15px 0;
+}
+.builder-elements img {
+  vertical-align: middle;
+  max-height: 100%;
+}
+#builder-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: #4e5965;
+  height: 50px;
+  left: 0;
+  z-index: 100;
+  box-sizing: content-box;
+}
+div#header-left {
+  float: left;
+  width: 40%;
+}
+div#header-left a {
+  padding-left: 430px;
+}
+#header-right {
+  width: 50%;
+  text-align: right;
+  float: right;
+}
+#header-right div {
+  display: inline-block;
+}
+#header-right .button {
+  margin-top: 10px;
+  margin-right: 3px;
+}
+#header-right .button a {
+  background: #f3f5f6;
+  border-color: #7e8993;
+  font-size: 13px;
+  color: #0071a1;
+}
+#header-right-text {
+  float: right;
+  height: 50px;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+}
+#header-right-icon {
+  float: right;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #35759f;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+  font-size: 18px;
+  line-height: 50px;
+  margin-left: 5px;
+}
+#builder-header a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+#header-right-text a {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-left: 10px;
+}
+#header-left-icon i {
+  line-height: 50px;
+  font-size: 20px;
+}
+.builder-row-container {
+  display: flex;
+  position: relative;
+}
+.builder-row-container-row {
+  padding: 15px 30px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+.builder-row {
+  min-height: 50px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.builder-row-container-row2 .builder-row {
+  width: 50%;
+  float: left;
+}
+.builder-row-container-row3 .builder-row,
+.builder-row-container-row4 .builder-row {
+  width: 35%;
+  float: left;
+}
+.builder-row-container-row3 .bd-row-2,
+.builder-row-container-row4 .bd-row-2 {
+  width: 65%;
+  float: left;
+}
+.builder-row-container-row5 .builder-row {
+  float: left;
+  width: 33.33%;
+}
+.builder-row-container-row6 .builder-row {
+  float: left;
+  width: 25%;
+}
+.builder-row-container-row7 .builder-row {
+  float: left;
+  width: 20%;
+}
+.builder-row-container-row8 .builder-row {
+  float: left;
+  width: 16.66%;
+}
+.builder-row-container-row9 .builder-row {
+  float: left;
+  width: 14.28%;
+}
+.builder-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999999;
+  background: #3f8dbf;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+}
+.yeepdf-email-expand .hidden {
+  display: none !important;
+}
+.momongaPresets li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.momongaPresets li > div {
+  border-radius: 3px;
+  border: 1px solid #666;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.builder__list {
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  min-height: 200px;
+}
+.yeepdf-email-slide {
+  width: 200px;
+  background: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 50px;
+  z-index: 2;
+  right: 0;
+}
+.yeepdf-email-row-tool {
+  margin: 15px 10px;
+}
+.yeepdf-email-row-tool label {
+  font-size: 17px;
+  font-weight: bold;
+}
+.yeepdf-email-row-tool select {
+  width: 100%;
+}
+.list-view-templates {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-view-templates li {
+  width: 100%;
+  flex: 0 25%;
+  border: 1px solid #e7e7e7;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+.list-view-templates li img {
+  width: 100%;
+  height: 200px;
+}
+.builder-elements p {
+  padding: 0;
+  margin: 0;
+}
+.builder-actions > div {
+  margin-top: 10px !important;
+}
+.yeepdf-email-preview-content {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  border: 1px solid #e7e7e7;
+}
+.clear {
+  clear: both;
+}
+.builder-elements {
+  position: relative;
+}
+.builder__editor--padding > div {
+  box-sizing: border-box;
+}
+.wp_builder_pdf_focus,
+.wp_builder_pdf_show {
+  border: 1px solid #3f8dbf;
+}
+.builder-row-empty,
+.wp_builder_pdf_hover {
+  border: 1px dashed #3f8dbf;
+}
+.builder-row-container-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.yeepdf_button {
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  max-width: 100%;
+  background-color: #dddddd;
+  border-radius: 3px;
+}
+.builder_hover {
+  border: 1px solid red;
+}
+.builder-row {
+  min-height: 20px;
+}
+.builder-row-container-row {
+  box-sizing: border-box;
+}
+.builder-row-inner.ul-draggable-dragging {
+  background: red !important;
+  width: 200px !important;
+  height: 50px !important;
+  display: block !important;
+}
+.ui-draggable-dragging {
+  box-shadow: 0 0 2px #000;
+}
+.builder-row-insert {
+  width: 100%;
+  height: 40px;
+  background: #666;
+  display: block;
+}
+.builder-hr {
+  width: 100%;
+  height: 1px;
+  background: #666;
+}
+.momongaPresets i {
+  font-size: 20px;
+}
+.yeepdf-tool-text {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.builder-content {
+  text-align: center;
+  font-size: 18px;
+  background: #666;
+  padding: 50px 15px;
+  color: #fff;
+}
+.yeepdf-menu a {
+  display: block;
+  text-decoration: none;
+}
+.yeepdf-video {
+  width: 100%;
+  height: 100%;
+  min-height: 50px;
+  background: #666;
+}
+.show-email table {
+  border: 1px solid #666 !important;
+}
+.menu-content-tool ul ul li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu-content-tool ul ul label {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+.menu-content-tool ul ul input {
+  width: 68%;
+  float: right;
+}
+.menu-content-tool ul li.data {
+  border-bottom: 1px solid #666;
+}
+.yeepdf_email_add_menu {
+  width: 100%;
+  text-align: center;
+}
+.builder-elements-content a {
+  text-decoration: none;
+}
+.rednumber-show-active p {
+  text-align: center;
+}
+.rednumber-show-active .ntf {
+  font-size: 50px;
+}
+.rednumber-show-active img {
+  width: 100%;
+}
+.yeepdf-email-row-tool .button {
+  width: 100%;
+  text-align: center;
+}
+.yeepdf-email-row-tool input {
+  width: 100%;
+}
+.builder-elements,
+.builder-row-container {
+  width: auto !important;
+  height: auto !important;
+}
+.yeepdfemail-temp {
+  width: 80px !important;
+  height: 34px !important;
+  text-indent: 99999px;
+  background: #666;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1400px) {
+  .yeepdf-email-slide {
+    width: 250px;
+  }
+}
+.list-view-templates .grid-item {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.list-view-templates .grid-item img {
+  max-width: 200px;
+}
+.demo_content {
+  padding: 10px;
+}
+.yeepdf-email-actions .demo-fl {
+  width: 50%;
+  float: left;
+}
+.yeepdf-email-actions .demo-fr {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.yeepdf-email-actions-design {
+  display: none !important;
+}
+.demo-title {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.woocommerce-yeepdf-expand-shrink {
+  float: right;
+}
+.yeepdf-email-expand-title {
+  float: left;
+}
+.yeepdf-email-expand a,
+.wpbuideremail-expand-right a {
+  text-decoration: none;
+  background: #fff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  min-height: 31px;
+  min-width: 70px;
+  padding: 2px 16px;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #212121;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  font: 500 14px/31px Roboto, sans-serif !important;
+}
+.yeepdf-email-expand a:hover,
+.wpbuideremail-expand-right a:hover {
+  opacity: 0.7;
+}
+.hidden {
+  display: none;
+}
+.wpbuideremail-expand-right {
+  width: 120px;
+  height: 30px;
+  position: fixed;
+  top: 50px;
+  right: -20px;
+  z-index: 9999;
+}
+.wpbuideremail-expand-right a {
+  padding: 0px 16px;
+}
+.header-list-fonts,
+.container-list-fonts {
+  display: grid;
+  grid-template-columns: 4fr 1.5fr 1.5fr 1.5fr 2fr 1.5fr;
+  gap: 1rem;
+  padding: 0.325rem 0;
+  text-align: center;
+  max-width: 600px;
+  font-weight: bold;
+  border: 1px solid #d5d7e9;
+  border-bottom: 0;
+}
+.container-list-fonts:last-child {
+  border-bottom: 1px solid #d5d7e9;
+}
+.header-list-fonts div:first-child,
+.container-list-fonts div:first-child {
+  text-align: left;
+  padding-left: 15px;
+}
+.container-list-fonts a {
+  text-decoration: none;
+}
+.container-list-fonts a:hover {
+  opacity: 0.8;
+}
+.container-list-fonts {
+  background: #fff;
+}
+.list-fonts {
+  padding: 10px 0;
+}
+.order-detail h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.order-detail-data {
+  padding-left: 15px;
+}
+.order-detail td {
+  vertical-align: top;
+}
+.order-detail tr td {
+  padding-bottom: 20px;
+}
+.icon-woo {
+  background: url(../images/woo.png) center center no-repeat;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 20px;
+}
+.yeepdf-testting-order {
+  color: #6f6f6f;
+  padding-top: 10px;
+}
+.yeepdf-testting-order select {
+  max-width: 130px;
+}
+.text-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.order-detail tr td {
+  padding-bottom: 20px;
+}
+.builder-elements table.yeepdf-woocommerce-table td {
+  padding: 10px;
+  border-collapse: collapse;
+}
+.builder-elements table.yeepdf-woocommerce-table th {
+  padding: 10px;
+  border-collapse: collapse;
+}
+.builder-elements table.yeepdf-woocommerce-table th:last-child,
+.builder-elements table.yeepdf-woocommerce-table td:last-child {
+  text-align: right !important;
+  width: 150px;
+}
+.builder-elements table.yeepdf-woocommerce-table th.quantity,
+.builder-elements table.yeepdf-woocommerce-table td.quantity {
+  width: 150px;
+  text-align: center !important;
+}
+img.barcode {
+  max-width: 500px;
+}
+.column-pdf_creator a {
+  padding: 1px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+.column-pdf_creator a:hover {
+  opacity: 0.8;
+  border: 1px solid #2271b1;
+}
+.page_break {
+  border: 15px solid #c3ccd5;
+  background: #c3ccd5;
+  margin-left: -62px;
+  margin-right: -62px;
+  z-index: 1;
+}
+.button-yeepdf-save:hover {
+  opacity: 0.8;
+}
+.builder__editor--item-html textarea,
+.yeepdf-image-type-editor-field {
+  width: 100%;
+}
+.yeepdf-image-type-upload .image_url {
+  width: 79%;
+}
+.builder__toolbar > div {
+  cursor: pointer;
+}
+.builder__toolbar .momongaDragHandle {
+  cursor: move;
+}
+.yeepdf-logic-item {
+  display: flex;
+  margin-top: 10px;
+}
+.yeepdf-popup-layout-settings button {
+  padding: 7px;
+  margin-left: 15px;
+}
+.yeepdf-popup-layout {
+  text-align: center;
+  padding-top: 15px;
+}
+.text-center {
+  text-align: center;
+}
+.builder__editor--item-condition {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.manager_condition {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.yeepdf-logic-item select {
+  max-width: 200px;
+  margin-right: 15px;
+}
+#tab_pdf_creator_form_settings #yeepdf-logic-type,
+#tab_pdf_creator_form_settings #yeepdf-logic-logic {
+  max-width: 200px;
+}
+.yeepdf-logic-logic-bnt-container {
+  padding: 10px;
+}
+#tab_pdf_creator_form_settings .yeepdf-logic-item select,
+#tab_pdf_creator_form_settings .yeepdf-logic-item input {
+  max-width: 190px !important;
+  max-height: 50px !important;
+  margin-right: 15px;
+}
+#tab_pdf_creator_form_settings .yeepdf-popup-layout-settings button {
+  padding: 11px;
+}
+.yeepdf-popup-content {
+  padding-top: 15px;
+}
+.pdf-marketing-merge-tags-container {
+  position: relative;
+  max-width: 350px;
+}
+.gform-settings-panel__content .pdf-marketing-merge-tags-container {
+  max-width: 100%;
+}
+.pdf-marketing-merge-tags-container .code-selector {
+  padding-right: 35px;
+  width: 350px !important;
+}
+.pdf-merge-tags {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.gform-settings-panel__content .pdf-merge-tags {
+  top: 14px;
+}
+.pdf-marketing-list-merge-tags {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.dotab {
+  display: inline-block;
+}
+.dotab_content {
+  border-bottom: 2px dotted;
+}
+.pro_disable {
+  background: #ededed;
+}
+.pro_disable:hover {
+  cursor: no-drop;
+}
+.builder__widget,
+.builder__tab {
+  background-color: #222527;
+}
+.yeepdf-builder-container .builder_main_info {
+  height: 50px;
+  background-color: #35759f;
+  color: #fff;
+  display: flex;
+}
+.yeepdf-builder-container .builder_main_info .builder_main_info_text {
+  color: #fff;
+  font-size: 17px;
+  padding-left: 15px;
+  font-weight: 600;
+  padding-top: 12px;
+  width: 100%;
+}
+.yeepdf-builder-container .builder_main_info .builder_main_info_icon {
+  text-align: right;
+  width: 30%;
+}
+.yeepdf-builder-container .builder_main_info .builder_main_info_icon a {
+  display: block;
+  height: 50px;
+  padding-top: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+.yeepdf-builder-container .builder_main_info .builder_main_info_icon span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.yeepdf-builder-container .builder__tab {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #222527;
+}
+.yeepdf-builder-container .builder__tab li a {
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #222527;
+}
+.yeepdf-builder-container .builder__tab li a.active {
+  color: #0073aa;
+  background-color: #fff;
+}
+.yeepdf-builder-container .builder__tab li a span {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.yeepdf-builder-container .builder__widget_tab {
+  background: #2d3032;
+  color: #fff;
+  border-radius: 7px 7px 0 0;
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+.yeepdf-builder-container .builder__widget_tab_title {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.03);
+  padding-bottom: 5px;
+  position: relative;
+}
+.yeepdf-builder-container .builder__widget_tab span {
+  color: #fff;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.yeepdf-builder-container .builder__widget_tab .builder__widget_tab_title_icon {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.yeepdf-builder-container .builder__widget_tab_title .dashicons-arrow-down-alt2,
+.yeepdf-builder-container
+  .builder__widget_tab_title.yeepdf_tab_hide
+  .dashicons-arrow-up-alt2 {
+  display: none;
+}
+.builder__widget_tab_title.yeepdf_tab_hide .dashicons-arrow-down-alt2 {
+  display: inline-block;
+}
+.yeepdf-builder-container .yeepdf-builder-side p,
+.yeepdf-builder-container .yeepdf-builder-side div {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666666;
+}
+.yeepdf-builder-container .builder__widget_tab .momongaPresets_data {
+  background: #2d3032;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.yeepdf-builder-container .builder__widget_tab .momongaPresets_data li {
+  width: 120px;
+}
+.yeepdf-builder-container .momongaPresets_data li > div {
+  border: none;
+  background-color: #383b3c;
+  border-radius: 5px;
+  color: #b9b9b9;
+  padding: 5px 0;
+}
+.yeepdf-builder-container .momongaPresets_data li .yeepdf-tool-text {
+  color: #b9b9b9;
+  font-size: 12px;
+}
+.yeepdf-builder-container .momongaPresets i {
+  font-size: 18px;
+  padding-top: 12px;
+}
+.yeepdf-builder-container .momongaPresets_data li .yeepdf-tool-text {
+  font-size: 12px;
+}
+.yeepdf-builder-container
+  .builder__widget_tab
+  .momongaPresets_data.builder-row-tool
+  li {
+  width: 150px;
+  margin-left: 20px;
+}
+.yeepdf-builder-container .builder__widget_tab span {
+  color: #fff;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#builder-header {
+  -webkit-box-shadow: 0 0 0 1px #e2e4e7;
+  box-shadow: 0 0 0 1px #e2e4e7;
+  background: #fff;
+}
+#header-right {
+  width: 100%;
+  float: none;
+  padding-left: 450px;
+  text-align: left;
+  display: flex;
+  box-sizing: border-box;
+}
+#header-right > div {
+  width: 100%;
+  display: flex;
+}
+#header-right > div > div {
+  padding-left: 10px;
+}
+#header-right .button {
+  background: #efefef;
+  border-color: #efefef;
+  color: #6f6f6f;
+  margin-top: 8px;
+}
+#header-right .button-primary-ok {
+  background: #2271b1;
+  border-color: #2271b1;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 0 20px;
+}
+.header-right-r {
+  justify-content: flex-end;
+}
+#header-right .button span {
+  padding-top: 6px;
+}
+#header-right .button-icon {
+  margin-top: 10px;
+  margin-right: 3px;
+}
+#header-right .button-icon span {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 4px 15px;
+  border-radius: 5px;
+  color: #6f6f6f;
+}
+.builder_main_footer {
+  position: absolute;
+  bottom: 13px;
+  width: 400px;
+  display: flex;
+}
+.builder_main_footer .builder_main_footer_text {
+  padding-left: 15px;
+  padding-top: 6px;
+  width: 100%;
+  font-weight: 600;
+}
+.builder_main_footer .builder_main_footer_icon {
+  width: 50%;
+  text-align: right;
+  padding-right: 15px;
+}
+.builder_main_footer a {
+  text-decoration: none;
+}
+.yeepdf-builder-container .tab__inner {
+  max-height: calc(100% - 170px);
+}
+#email-builder-main #header-right .button-icon:hover span {
+  border: 1px solid #135e96;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#email-builder-main #header-right .button:hover {
+  background: #f9f9f9;
+  border-color: #f1f1f1;
+}
+#email-builder-main #header-right .button-primary-ok:hover {
+  background: #135e96;
+  border-color: #135e96;
+  color: #fff;
+}
+.yeepdf-builder-container .momongaPresets_data li > div:hover {
+  box-shadow: 3px 4px 4px rgba(35, 40, 45, 0.4588235294);
+  -webkit-box-shadow: 3px 4px 4px rgba(35, 40, 45, 0.4588235294);
+  -moz-box-shadow: 3px 4px 4px rgba(35, 40, 45, 0.4588235294);
+  background: #47494b;
+  cursor: pointer;
+}
+.momongaPresets_data li:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.yeepdf-builder-container .builder__tab li a:hover {
+  opacity: 0.8;
+}
+.yeepdf-builder-container .builder__editor--item input[type="text"],
+.yeepdf-builder-container .builder__editor--item input[type="number"],
+.yeepdf-builder-container .builder__editor--item textarea,
+.yeepdf-builder-container .builder__editor--item select {
+  height: 30px;
+  padding: 0 11px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -moz-appearance: textfield !important;
+  border: none;
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+.wp-picker-container input {
+  width: 70px !important;
+}
+.yeepdf-builder-container .builder__editor--item textarea {
+  min-height: 100px;
+}
+.yeepdf-builder-container .builder__editor--item {
+  background: #2d3032;
+  color: #fff;
+  border-radius: 7px 7px 0 0;
+  padding-top: 5px;
+  border: none;
+}
+.yeepdf-builder-container .builder__editor--item > div > label {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.03);
+}
+.yeepdf-builder-container .builder__editor--item label {
+  background: #2d3032;
+  padding-bottom: 5px;
+  position: relative;
+  color: #b9b9b9;
+}
+.yeepdf-builder-container .input-group-btn.input-group-append {
+  right: 43px;
+}
+.yeepdf-builder-container .builder__editor--align a {
+  border-color: #b9b9b9;
+  color: #b9b9b9;
+}
+.yeepdf-builder-container .builder__editor--align a:hover {
+  opacity: 0.8;
+}
+.button__align.active {
+  color: #000 !important;
+}
+.builder__editor .button,
+.builder__editor--item .button {
+  background-color: #858585;
+  color: #fff;
+  border: none;
+}
+.yeepdf-builder-container .pro_disable::after {
+  display: none;
+}
+.yeepdf-builder-container .pro_disable:hover::after {
+  display: block;
+}
+.yeepdf-builder-container .pro_disable:hover {
+  cursor: no-drop !important;
+}
+.builder__widget_columns .pro_disable {
+  background-color: transparent !important;
+}
+.yeepdf-builder-goback {
+  padding: 15px 0;
+}
+.yeepdf-builder-goback:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.yeepdf-builder-goback span {
+  color: #fff;
+  text-transform: capitalize;
+}
+.builder__widget_tab_title:hover {
+  cursor: pointer;
+  background-color: #313336;
+}
+.yeepdf-logic-item > div {
+  width: 100%;
+  padding: 0 8px;
+}
+.yeepdf-logic-item select,
+.yeepdf-logic-item input {
+  width: 100%;
+}
+.yeepdf-popup-layout-settings {
+  width: 50px !important;
+}
+.yeepdf-popup-minus {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 4px 15px;
+  border-radius: 5px;
+  color: #6f6f6f;
+  text-decoration: none;
+  display: block;
+}
+.list-view-templates,
+.list-view-short-templates {
+  height: 575px;
+}
+.list-view-short-templates-r {
+  display: flex;
+}
+.list-view-short-templates-r > div {
+  width: 100%;
+}
+.list-view-short-templates-k {
+  padding-left: 15px;
+}
+.yeepdf-builder-container .builder__widget_tab .builder-row-templates li {
+  width: 120px;
+  display: inline-block;
+  float: left;
+}
+.yeepdf-builder-container .builder__widget_tab .builder-row-templates li > div {
+  margin: 10px 0px 5px 10px;
+  text-align: center;
+}
+.post-type-yeepdf.post-php #wpbody-content > div:not(.wrap) {
+  display: none;
+}
+.yeepdf-container-tab {
+  background: #fff;
+  padding: 0px;
+  border: 1px solid #e3e6ef;
+  border-radius: 3px;
+}
+.yeepdf-container-tab h3 {
+  border-bottom: 1px solid #e3e6ef;
+  padding: 15px;
+  margin: 0;
+}
+.yeepdf-container-inner-tab {
+  padding: 15px 30px;
+}
+.yeepdf-settings-field-title {
+  color: #23282d;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.yeepdf-settings-field {
+  padding-bottom: 10px;
+}
+.yeepdf-settings-description {
+  font-size: 12px;
+}
+.yeepdf_input_min {
+  max-width: 100px !important;
+}
+.yeepdf-popup-content span.mid_content {
+  padding-top: 10px;
+  display: inline-block;
+}
+.yeepdf-popup-layout input,
+.yeepdf-popup-layout select {
+  width: 100% !important;
+}
+.yeepdf-popup-content {
+  max-width: 750px;
+}
+.yeepdf-switch {
+  position: relative !important;
+  display: inline-block !important;
+  width: 50px;
+  height: 25px;
+  padding: 0 !important;
+}
+.yeepdf-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.yeepdf-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.yeepdf-slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .yeepdf-slider {
+  background-color: #2196f3;
+}
+input:focus + .yeepdf-slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .yeepdf-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.yeepdf-slider.yeepdf-round {
+  border-radius: 34px;
+}
+.yeepdf-slider.yeepdf-round:before {
+  border-radius: 50%;
+}
+.yeepdf-container-switch {
+  padding: 10px 0;
+}
+.builder__editor--item .yeepdf-switch {
+  margin-left: 15px;
+}
+.builder__editor--item .wp-picker-container button {
+  border: 1px solid #000;
+}
+.builder__editor--item .wp-picker-container span.wp-color-result-text,
+.builder__editor--item .wp-picker-container .wp-picker-clear {
+  display: none;
+}
+.builder__editor--item .wp-picker-container .wp-picker-input-wrap label {
+  display: inline-block;
+  padding: 0;
+}
+.builder__editor--item .wp-picker-container .wp-picker-input-wrap {
+  display: inline !important;
+}
+@media only screen and (max-width: 1310px) {
+  #header-right {
+    flex-direction: column;
+  }
+  #builder-header {
+    height: 100px;
+  }
+}
+.tab__inner::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+.tab__inner::-webkit-scrollbar-track {
+  background: #222527;
+}
+/* Handle */
+.tab__inner::-webkit-scrollbar-thumb {
+  background: #888 !important;
+}
+/* Handle on hover */
+.tab__inner::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.yeepdf-table,
+.yeepdf-table th,
+.yeepdf-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.yeepdf-table thead tr {
+  border-bottom: 2px solid #000;
+}
+.yeepdf-table .tfoot-tr-1 th,
+.yeepdf-table .tfoot-tr-1 td {
+  border-top-width: 4px;
+}
+.yeepdf-order-detail-template-1,
+.yeepdf-order-detail-template-1 th,
+.yeepdf-order-detail-template-1 td {
+  border: none;
+}
+.yeepdf-order-detail-template-1 tfoot tr.tfoot-tr-1 {
+  border-top: 1px solid #000;
+}
+.yeepdf-order-detail-template-2 th {
+  background-color: #5d6f79;
+  color: #fff;
+}
+.yeepdf-order-detail-template-2 tr {
+  background-color: #f1f5f6;
+  color: #666;
+  border-top: 1px solid #fff;
+}
+.yeepdf-order-detail-template-2 thead tr {
+  border-bottom: none;
+}
+.yeepdf-order-detail-template-2 .tfoot-tr-1 th,
+.yeepdf-order-detail-template-2 .tfoot-tr-1 td {
+  border-top-width: 1px;
+}
+.yeepdf_button {
+  display: inline-block;
+}
+
+.yeepdf-table-builder {
+  border: 1px solid #dededf;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 100px;
+  text-align: center;
+}
+.yeepdf-table-builder th {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(222, 222, 223);
+  min-height: 30px;
+}
+.yeepdf-table-builder td {
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(222, 222, 223);
+  color: rgb(0, 0, 0);
+  min-height: 30px;
+}
+.yeepdf_setting_group {
+  grid-row-gap: .75rem;
+  border-bottom: 1px solid #4e4e4e;
+  flex-direction: column;
+  margin-bottom: .625rem;
+  padding-bottom: .625rem;
+  display: flex;
+}
+.yeepdf_setting_row {
+  grid-column-gap: .375rem;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.yeepdf_settings_group-wrapper {
+  flex: 1;
+}
+.yeepdf_checkbox_label {
+  letter-spacing: .05em;
+  margin-bottom: 0;
+  font-size: .6rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.yeepdf_setting_input-wrapper {
+  flex: 0 32%;
+  margin-top: 3px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.yeepdf_setting_input {
+  border: 1px solid #343434;
+  background-color: #696969;
+  color: var(--white);
+  align-items: center;
+  height: 26px;
+  margin-bottom: 0;
+  padding: 0 0 0 .5rem;
+  font-size: .75rem;
+  width:100%;
+}
+select.yeepdf_setting_input:not(.is-select) {
+  background-image: url(../images/select.png);
+  background-position: calc(100% - 0.5rem) 50%;
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
+[data-sku="hidden"],[data-showimg="hidden"],[data-showdes="hidden"],[data-totals="hidden"]{
+  display: none;
+}
+.text-content {
+  overflow: hidden;
+}
